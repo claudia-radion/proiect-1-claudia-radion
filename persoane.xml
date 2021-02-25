@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Bulevardul Independentei</strada>
+            <numar>7</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <limbaj>C++</limbaj>
+        </CV>
+    </persoana>
+
+    <persoana id="2">
+        <nume>Ionescu</nume>
+        <prenume>George</prenume>
+        <varsta>32</varsta>
+        <adresa>
+            <strada>Soseaua Pacurari</strada>
+            <numar>20</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <limbaj>Java</limbaj>
+        </CV>
+    </persoana>
+
+    <persoana id="3">
+        <nume>Georgescu</nume>
+        <prenume>Andrei</prenume>
+        <varsta>20</varsta>
+        <adresa>
+            <strada>Bulevardul Dacia</strada>
+            <numar>13</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <limbaj>Python</limbaj>
+        </CV>
+    </persoana>
+
+    <persoana id="4">
+        <nume>Popescu</nume>
+        <prenume>Andreea</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Bulevardul Alexandru cel Bun</strada>
+            <numar>30</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <limbaj>Kotlin</limbaj>
+        </CV>
+    </persoana>
+
+    <persoana id="5">
+        <nume>Andreescu</nume>
+        <prenume>Ionut</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Calea Chisinaului</strada>
+            <numar>25</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <limbaj>JavaScript</limbaj>
+        </CV>
+    </persoana>
+</persoane>
