@@ -66,11 +66,11 @@ while True:
 		tipMedia = tipuriMedia.get(numeExtensie,'text/plain')
 		
 		# se trimite raspunsul
-		clientsocket.sendall('HTTP/1.1 200 OK\r\n');
-		clientsocket.sendall('Content-Length: ' + str(os.stat(numeFisier).st_size) + '\r\n');
-		clientsocket.sendall('Content-Type: ' + tipMedia +'\r\n');
-		clientsocket.sendall('Server: My PW Server\r\n');
-		clientsocket.sendall('\r\n');
+		clientsocket.sendall('HTTP/1.1 200 OK\r\n'.encode());
+		clientsocket.sendall(('Content-Length: ' + str(os.stat(numeFisier).st_size) + '\r\n').encode());
+		clientsocket.sendall(('Content-Type: ' + tipMedia +'\r\n').encode());
+		clientsocket.sendall(('Server: My PW Server\r\n').encode());
+		clientsocket.sendall('\r\n'.encode());
 		
 		# citeste din fisier si trimite la server
 		buf = fisier.read(1024)

@@ -1,1 +1,1 @@
-c:\Python27\python.exe server_web.py
+python server_web.py
