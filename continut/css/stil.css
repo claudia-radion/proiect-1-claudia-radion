@@ -36,6 +36,9 @@ table {
     background-color:lightblue;
     width: 30%;
 }
+td, th {
+  text-align: center;
+}
 
 fieldset {
     border-radius: 5px;
